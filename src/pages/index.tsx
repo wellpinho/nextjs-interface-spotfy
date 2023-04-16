@@ -117,9 +117,9 @@ export default function Home() {
     <footer className="bg-zinc-900 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
       <div className="flex items-center gap-3">
         <Image src="/album.jpg" className="w-full" width={56} height={56} alt="Capa do album full fighters"/>
-        <div className="flex flex-col">
+        <div className="flex flex-col text-zinc-400">
           <strong className="font-normal">Rope</strong>
-          <span className="text-xs text-zinc-400">Foo Fighters</span>
+          <span className="text-xs">Foo Fighters</span>
         </div>
       </div>
 
