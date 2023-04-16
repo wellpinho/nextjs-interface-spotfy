@@ -1,4 +1,4 @@
-import { Books, House, MagnifyingGlass } from "@phosphor-icons/react"
+import { Books, Heart, House, MagnifyingGlass, Plus } from "@phosphor-icons/react"
 
 const Navbar = () => {
     return (
@@ -15,6 +15,17 @@ const Navbar = () => {
                 <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
                     <Books size={22} />
                     Your library
+                </a>
+            </nav>
+
+            <nav className="space-y-5 mt-16">
+                <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
+                    <Plus size={22} className="p-1 bg-zinc-400 text-zinc-900" />
+                    Criar Playlist
+                </a>
+                <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
+                    <Heart size={22} weight="fill" className="p-1 bg-gradient-to-r from-indigo-500 to-indigo-300" />
+                    Músicas curtidas
                 </a>
             </nav>
 
