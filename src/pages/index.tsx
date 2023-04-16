@@ -1,5 +1,5 @@
 import PlayButton from "@/components/button";
-import { BookBookmark, Books, CaretLeft, CaretRight, House, MagnifyingGlass, Play, Repeat, Shuffle, SkipBack, SkipForward } from "@phosphor-icons/react";
+import { ArrowsOutSimple, Books, CaretLeft, CaretRight, House, Laptop, MagnifyingGlass, Microphone, Play, Queue, Repeat, Shuffle, SkipBack, SkipForward, SpeakerHigh } from "@phosphor-icons/react";
 import Image from "next/image";
 
 export default function Home() {
@@ -114,7 +114,7 @@ export default function Home() {
       </main>
     </div>
 
-    <footer className="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
+    <footer className="bg-zinc-900 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
       <div className="flex items-center gap-3">
         <Image src="/album.jpg" className="w-full" width={56} height={56} alt="Capa do album full fighters"/>
         <div className="flex flex-col">
@@ -140,7 +140,22 @@ export default function Home() {
           <span className="text-xs text-zinc-400">2:14</span>
         </div>
       </div>
-      <div></div>
+      <div className="flex items-center gap-2 text-zinc-200">
+        <Microphone size={20} />
+        <Queue size={20} />
+        <Laptop size={20} />
+        <SpeakerHigh size={20} />
+
+        <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2">
+            <div className="h1 rounded-full w-20 bg-zinc-600">
+              <div className="bg-zinc-200 w-10 h-1 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+
+        <ArrowsOutSimple size={20} />
+      </div>
     </footer>
   </div>
   )
