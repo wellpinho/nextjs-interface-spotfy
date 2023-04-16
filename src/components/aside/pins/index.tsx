@@ -1,9 +1,9 @@
+import Image from "next/image"
+
 const Pins = () => {
     return (
         <div className="flex items-center gap-2">
-            <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-            <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-            <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+            <Image width={120} style={{ marginLeft: '-12px'}} height={120} src="/spotify.png" alt="Logo Spotify" />
         </div>
     )
 }
