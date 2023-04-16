@@ -16,21 +16,21 @@ export default function Home() {
         <Navbar />
       </aside>
 
-      <main className="flex-1 bg-zinc-800 text-zinc-50 p-6">
+      <main className="flex-1 bg-zinc-900 text-zinc-50 p-6">
         <Buttons />
 
-        <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
+        <h1 className="font-semibold text-3xl mt-10">Foco</h1>
 
         <div className="grid grid-cols-3 gap-4 mt-10">
-          <Card title="Wasting Light" />
-          <Card title="Blast Pins" />
-          <Card title="Was gron" />
-          <Card title="The time is now" />
-          <Card title="Not prepered" />
-          <Card title="Leave me now" />
+          <Card image="/album-2.webp" title="Wasting Light" />
+          <Card image="/album.jpg" title="Blast Pins" />
+          <Card image="/album-3.jpg" title="Was gron" />
+          <Card image="/album-4.jpeg" title="The time is now" />
+          <Card image="/album-5.png" title="Not prepered" />
+          <Card image="/album-6.jpg" title="Leave me now" />
         </div>
 
-        <h2 className="font-semibold text-2xl mt-10">Made For Diego Schell Fernandes</h2>
+        <h2 className="font-semibold text-2xl mt-10">Playlist do Spotify</h2>
 
         <div className="grid grid-cols-8 gap-4 mt-4">
           <ArtistList title="Daily Mix 1" description="Wallows, COIN, girl in red and more" image="/album.jpg" />
